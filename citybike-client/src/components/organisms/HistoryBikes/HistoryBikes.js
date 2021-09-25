@@ -15,6 +15,7 @@ export const HistoryBikes = ({ history, updateItemHistory }) => {
 
   return (
     <div className="history-bikes">
+      <h1 className="title">History</h1>
       <Slider
         items={history}
         itemSelected={itemSelected}

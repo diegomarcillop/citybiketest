@@ -2,6 +2,13 @@
   width: 100%;
   height: 10vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.history-bikes .title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.2vh;
+  color: black;
 }
