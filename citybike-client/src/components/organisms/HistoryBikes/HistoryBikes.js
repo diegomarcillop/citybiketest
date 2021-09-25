@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { Slider } from '../../atoms/Slider/Slider';
 import './HistoryBikes.css';
 
-
 export const HistoryBikes = ({ history, updateItemHistory }) => {
 
   const [itemSelected, setItemSelected] = useState(0)
